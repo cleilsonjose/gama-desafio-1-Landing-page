@@ -1,0 +1,48 @@
+.border{
+  border:1px solid red;
+}
+//menu
+.menu {
+  width: 100%;
+  background-color:$black-dark;
+  padding: 20px 16px;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  
+  font-weight: 700;
+  font-size:30px;
+}
+.pesquisa, .menu-rigth{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pesquisa{
+    width:40%;
+    
+    //margin: 0 auto;
+}
+
+.pesquisa input{
+  height: 33px;
+  border: none;
+  padding: 10px;
+  width: 89%;
+  border-radius: 5px 0 0 5px;
+}
+.pesquisa button{
+  height: 35px;
+  border-radius: 0 5px 5px 0;
+  border-left:1px solid $black-dark;
+  background-color:$red-dark;
+  width: 9%;
+  cursor: pointer;
+}
+.menu-rigth img{
+  margin: 10px 0 0 30px;
+}
+
+
