@@ -1,14 +1,17 @@
 .border{
   border:1px solid red;
 }
+.border2{
+  border:1px solid white;
+}
+
 //menu
 .menu {
   width: 100%;
   background-color:$black-dark;
   padding: 20px 16px;
-  
+  margin-bottom: 10px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   
@@ -22,7 +25,6 @@
 }
 .pesquisa{
     width:40%;
-    
     //margin: 0 auto;
 }
 
@@ -46,3 +48,85 @@
 }
 
 
+//main
+.clear{ 
+  clear: both; 
+}
+.container{
+  border: 1px solid #fff;
+  max-width: 1200px;
+  margin: 10px auto;
+}
+.container img{
+  width: 100%;
+  border-radius: 20px;
+  
+}
+//lado esquedo
+.sidenav{
+  float: right;
+  max-width: 460px;
+  min-width: 450px;
+  height: 900px;
+  background-color: $white-light;
+  border-radius: 20px;
+}
+
+.title{
+  background-color: $red-normal;
+  padding: 10px;
+  text-align: center;
+  color: $white-normal;
+  border-radius: 20px 20px 0 0;
+}
+
+.offer{
+  height: 220px;
+  background-color: $white-dark;
+  border-radius: 20px 20px 0 0;
+}
+.form{
+  padding: 25px;
+}
+
+.form input{
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  border-color: $white-normal;
+  //text-align: center;
+  padding: .8rem;
+  border-radius: 5px;
+  background: $white-normal;
+  
+}
+.button input{
+  color: $white-normal;
+  background: $red-normal;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+}
+form{
+  display: grid;
+}
+
+
+
+
+//footer
+footer{
+  background-color: $black-dark;
+  color: $white-normal;
+  height: 4rem;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  grid-column: footer;
+  //bottom: 0;
+
+  //position: fixed;
+}
+footer a{
+  color:$red-dark ;
+}
